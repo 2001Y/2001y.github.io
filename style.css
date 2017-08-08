@@ -115,14 +115,18 @@ header, #footer, [id^="page"] {
   top: 0;
   background-position: 50% 50%;
   background-color: #f8f8f8;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+@supports (position: -webkit-sticky;) or (position: sticky;) {
+  header, #footer, [id^="page"] {
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  }
+  header, [id^="page"] {
+    margin-bottom: 40vh;
+  }
 }
 footer {
   height: 140vh;
-}
-header, [id^="page"] {
-  margin-bottom: 40vh;
 }
 [id^="page"]:nth-child(odd) .contents,[id^="page"]:nth-child(odd) .contents a {
   color: #f8f8f8;
@@ -162,22 +166,10 @@ header, [id^="page"] {
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(//source.unsplash.com/collection/236/720x450) no-repeat center/cover;
   background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(//source.unsplash.com/collection/236/720x450) no-repeat center/cover;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(//source.unsplash.com/collection/236/720x450) no-repeat center/cover;
-=======
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(//source.unsplash.com/collection/438041/720x450) no-repeat center/cover;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(//source.unsplash.com/collection/438041/720x450) no-repeat center/cover;
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(//source.unsplash.com/collection/438041/720x450) no-repeat center/cover;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(//source.unsplash.com/collection/438041/720x450) no-repeat center/cover;
-  z-index: 3;
-}
-#page3 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.3))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABhJREFUCB1jYMAG/v//7wPCIDkmbApQxAAZ7QaVaX9fAwAAAABJRU5ErkJggg==) repeat, url(//source.unsplash.com/collection/546927/720x450) no-repeat center/cover;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABhJREFUCB1jYMAG/v//7wPCIDkmbApQxAAZ7QaVaX9fAwAAAABJRU5ErkJggg==) repeat, url(//source.unsplash.com/collection/546927/720x450) no-repeat center/cover;
-  background: -o-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABhJREFUCB1jYMAG/v//7wPCIDkmbApQxAAZ7QaVaX9fAwAAAABJRU5ErkJggg==) repeat, url(//source.unsplash.com/collection/546927/720x450) no-repeat center/cover;
-  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABhJREFUCB1jYMAG/v//7wPCIDkmbApQxAAZ7QaVaX9fAwAAAABJRU5ErkJggg==) repeat, url(//source.unsplash.com/collection/546927/720x450) no-repeat center/cover;
-  z-index: 4;
-}
-#page4 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(//source.unsplash.com/collection/236/720x450) no-repeat center/cover;
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(//source.unsplash.com/collection/236/720x450) no-repeat center/cover;
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(//source.unsplash.com/collection/236/720x450) no-repeat center/cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(//source.unsplash.com/collection/236/720x450) no-repeat center/cover;
   z-index: 5;
 }
 .scroll-dot {
