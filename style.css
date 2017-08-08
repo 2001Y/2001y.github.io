@@ -283,7 +283,7 @@ header .myicon {
     opacity: 0;
   }
 }
-[id^="page"] h2 {
+h2 {
   font-family: 'Wire One';
   font-size: 3.5em;
   margin-bottom: 20px;
