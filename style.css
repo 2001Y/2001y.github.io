@@ -63,11 +63,11 @@ body {
 }
 .contents a:before, .contents a:after {
   content: "";
-  height: 2px;
+  height: 1px;
   width: 0;
   display: inline-block;
   position: absolute;
-  top: 1.3em;
+  top: 1.4em;
   -webkit-transition: .3s;
   -o-transition: .3s;
   transition: .3s;
