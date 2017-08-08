@@ -112,18 +112,14 @@ header, #footer, [id^="page"] {
   align-items: center;
   background-position: 50% 50%;
   background-color: #f8f8f8;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
-@supports (position: -webkit-sticky; or position: sticky;) {
-  header, #footer, [id^="page"] {
-    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-  }
-  header, [id^="page"] {
-    margin-bottom: 40vh;
-  }
+header, [id^="page"] {
+  margin-bottom: 40vh;
 }
 footer {
   height: 140vh;
