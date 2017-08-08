@@ -219,21 +219,27 @@ header, [id^="page"] {
   background-size: cover;
 }
 
+h1 {
+  font-family: 'Noto Sans Japanese';
+  font-weight: 100;
+  line-height: 1;
+  margin-top: .3em;
+}
+h1 strong {
+  font-family: 'Open Sans';
+  margin-right: .3em;
+}
+h2 {
+  font-family: 'Wire One';
+  font-size: 3.5em;
+  margin-bottom: 20px;
+}
+
 header {
   color: #f8f8f8;
   font-size: 2.5em;
   background: url(header.jpg) no-repeat center/cover;
   z-index: 1;
-}
-header h1 {
-  font-family: 'Noto Sans Japanese';
-  font-weight: 100;
-  line-height: 1;
-  margin-top: 15px;
-}
-header h1 strong {
-  font-family: 'Open Sans';
-  margin-right: .3em;
 }
 header .myicon {
   width: 110px;
@@ -282,11 +288,6 @@ header .myicon {
     transform: rotate(-45deg) translate(-20px, 20px);
     opacity: 0;
   }
-}
-h2 {
-  font-family: 'Wire One';
-  font-size: 3.5em;
-  margin-bottom: 20px;
 }
 .profile {
   list-style-type: none;
