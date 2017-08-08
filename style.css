@@ -1,4 +1,4 @@
-/* === html5doctor.com Reset Stylesheet v1.6.1 Last Updated: 2010-09-17 Author: Richard Clark - http:https://richclarkdesign.com Twitter: @rich_clark === */
+/* === html5doctor.com Reset Stylesheet v1.6.1 Last Updated: 2010-09-17 Author: Richard Clark - //richclarkdesign.com Twitter: @rich_clark === */
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, #footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
   margin: 0;
@@ -141,15 +141,15 @@ header, [id^="page"] {
   z-index: 2;
 }
 #page2 {
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(https://source.unsplash.com/collection/438041/720x450) no-repeat center/cover;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(//source.unsplash.com/collection/438041/720x450) no-repeat center/cover;
   z-index: 3;
 }
 #page3 {
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABhJREFUCB1jYMAG/v//7wPCIDkmbApQxAAZ7QaVaX9fAwAAAABJRU5ErkJggg==) repeat, url(https://source.unsplash.com/collection/546927/720x450) no-repeat center/cover;
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABhJREFUCB1jYMAG/v//7wPCIDkmbApQxAAZ7QaVaX9fAwAAAABJRU5ErkJggg==) repeat, url(//source.unsplash.com/collection/546927/720x450) no-repeat center/cover;
   z-index: 4;
 }
 #page4 {
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(https://source.unsplash.com/collection/236/720x450) no-repeat center/cover;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(//source.unsplash.com/collection/236/720x450) no-repeat center/cover;
   z-index: 5;
 }
 .scroll-dot {
@@ -361,48 +361,48 @@ header .myicon {
   }
 }
 
-/* Noto Sans Japanese (japanese) https://www.google.com/fonts/earlyaccess */
+/* Noto Sans Japanese (japanese) //www.google.com/fonts/earlyaccess */
 
 @font-face {
   font-family: 'Noto Sans Japanese';
   font-style: normal;
   font-weight: 100;
-  src: url(https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.woff2) format('woff2'), url(https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.woff) format('woff'), url(https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.otf) format('opentype');
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.woff) format('woff'), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.otf) format('opentype');
 }
 @font-face {
   font-family: 'Noto Sans Japanese';
   font-style: normal;
-  src: url(https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Light.woff2) format('woff2'), url(https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Light.woff) format('woff'), url(https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Light.otf) format('opentype');
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Light.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Light.woff) format('woff'), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Light.otf) format('opentype');
 }
 @font-face {
   font-family: 'Noto Sans Japanese';
   font-style: normal;
   font-weight: 300;
-  src: url(https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-DemiLight.woff2) format('woff2'), url(https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-DemiLight.woff) format('woff'), url(https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-DemiLight.otf) format('opentype');
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-DemiLight.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-DemiLight.woff) format('woff'), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-DemiLight.otf) format('opentype');
 }
 @font-face {
   font-family: 'Noto Sans Japanese';
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.woff2) format('woff2'), url(https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.woff) format('woff'), url(https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.otf) format('opentype');
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.woff) format('woff'), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.otf) format('opentype');
 }
 @font-face {
   font-family: 'Noto Sans Japanese';
   font-style: normal;
   font-weight: 500;
-  src: url(https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Medium.woff2) format('woff2'), url(https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Medium.woff) format('woff'), url(https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Medium.otf) format('opentype');
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Medium.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Medium.woff) format('woff'), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Medium.otf) format('opentype');
 }
 @font-face {
   font-family: 'Noto Sans Japanese';
   font-style: normal;
   font-weight: 700;
-  src: url(https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.woff2) format('woff2'), url(https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.woff) format('woff'), url(https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.otf) format('opentype');
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.woff) format('woff'), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.otf) format('opentype');
 }
 @font-face {
   font-family: 'Noto Sans Japanese';
   font-style: normal;
   font-weight: 900;
-  src: url(https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Black.woff2) format('woff2'), url(https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Black.woff) format('woff'), url(https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Black.otf) format('opentype');
+  src: url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Black.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Black.woff) format('woff'), url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Black.otf) format('opentype');
 }
 
 /* cyrillic-ext */
@@ -411,7 +411,7 @@ header .myicon {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v14/K88pR3goAWT7BTt32Z01m4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(//fonts.gstatic.com/s/opensans/v14/K88pR3goAWT7BTt32Z01m4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
   unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
 }
 
@@ -420,7 +420,7 @@ header .myicon {
   font-family: 'Quicksand';
   font-style: normal;
   font-weight: 400;
-  src: local('Quicksand Regular'), local('Quicksand-Regular'), url(https://fonts.gstatic.com/s/quicksand/v6/NUrn2XQrRfyGZp5MknntaYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  src: local('Quicksand Regular'), local('Quicksand-Regular'), url(//fonts.gstatic.com/s/quicksand/v6/NUrn2XQrRfyGZp5MknntaYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
 }
 
 /* latin */
@@ -428,7 +428,7 @@ header .myicon {
   font-family: 'Wire One';
   font-style: normal;
   font-weight: 400;
-  src: local('Wire One'), local('WireOne'), url(https://fonts.gstatic.com/s/wireone/v7/rLTvRwYavTGtXnsB7H7e_HYhjbSpvc47ee6xR_80Hnw.woff2) format('woff2');
+  src: local('Wire One'), local('WireOne'), url(//fonts.gstatic.com/s/wireone/v7/rLTvRwYavTGtXnsB7H7e_HYhjbSpvc47ee6xR_80Hnw.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 
@@ -437,6 +437,6 @@ header .myicon {
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 400;
-  src: local('Playfair Display'), local('PlayfairDisplay-Regular'), url(https://fonts.gstatic.com/s/playfairdisplay/v10/2NBgzUtEeyB-Xtpr9bm1CRw5vVFbIG7DatP53f3SWfE.woff2) format('woff2');
+  src: local('Playfair Display'), local('PlayfairDisplay-Regular'), url(//fonts.gstatic.com/s/playfairdisplay/v10/2NBgzUtEeyB-Xtpr9bm1CRw5vVFbIG7DatP53f3SWfE.woff2) format('woff2');
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
