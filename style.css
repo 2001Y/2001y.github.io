@@ -48,6 +48,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   width: 100vw;
   background-color: #f8f8f8;
+  overflow-y: scroll;
   -webkit-animation: fadein 2s ease 0s 1 normal;
           animation: fadein 2s ease 0s 1 normal;
   scroll-behavior: smooth;
