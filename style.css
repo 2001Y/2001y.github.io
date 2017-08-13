@@ -368,7 +368,7 @@ header .myicon {
 }
 
 /* Responsive */
-@media screen and (ax-width:414px) {
+@media screen and (max-width:414px) {
   body {
     font-size: 90%;
   }
