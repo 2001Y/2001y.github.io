@@ -48,27 +48,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
   width: 100vw;
   background-color: #f8f8f8;
-  -webkit-animation: fadein 2s ease 0s 1 normal;
-          animation: fadein 2s ease 0s 1 normal;
+  -webkit-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
+  opacity: 1
 }
 #loading {
   display: none;
-}
-@keyframes fadein {
-    0% {
-      opacity: 0
-    }
-    100% {
-      opacity: 1
-    }
-}
-@-webkit-keyframes fadein {
-    0% {
-      opacity: 0
-    }
-    100% {
-      opacity: 1
-    }
+  opacity: 0
 }
 .contents {
   font-family: 'Playfair Display','Noto Sans Japanese';
