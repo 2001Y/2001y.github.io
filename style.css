@@ -106,11 +106,11 @@ body {
 body::-webkit-scrollbar {
   width:0;
 }
- ::-moz-selection {
+::-moz-selection {
   color: #f8f8f8;
   background-color: rgba(92, 92, 92, .5);
 }
- ::selection {
+::selection {
   color: #f8f8f8;
   background-color: rgba(92, 92, 92, .5);
 }
