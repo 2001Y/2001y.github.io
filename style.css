@@ -377,7 +377,7 @@ header .myicon {
   }
 }
 @media screen and (min-width:912px) {
-  .br:not(.copyright .br) {
+  .br {
     display: none;
   }
 }
