@@ -51,7 +51,7 @@ body {
   -webkit-animation: fadein 2s ease 0s 1 normal;
           animation: fadein 2s ease 0s 1 normal;
 }
-.loading {
+#loading {
   display: none;
 }
 @keyframes fadein {
