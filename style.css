@@ -40,7 +40,6 @@ input, select {
 
 body {
   font-family: 'Open Sans','Noto Sans Japanese','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','HG丸ｺﾞｼｯｸM-PRO','HGMaruGothicMPRO','Hiragino Kaku Gothic ProN','Arial', 'Helvetica','sans-serif';
-  font-size: 25px;
   text-align: center;
   word-wrap: break-word;
   overflow-wrap: break-word;
@@ -49,6 +48,24 @@ body {
   -moz-osx-font-smoothing: grayscale;
   width: 100vw;
   background-color: #f8f8f8;
+  -webkit-animation: fadein 2s ease 0s 1 normal;
+          animation: fadein 2s ease 0s 1 normal;
+}
+@keyframes fadein {
+    0% {
+      opacity: 0
+    }
+    100% {
+      opacity: 1
+    }
+}
+@-webkit-keyframes fadein {
+    0% {
+      opacity: 0
+    }
+    100% {
+      opacity: 1
+    }
 }
 .contents {
   font-family: 'Playfair Display','Noto Sans Japanese';
@@ -368,16 +385,18 @@ header .myicon {
 }
 
 /* Responsive */
-@media screen and (min-width:414px) {
+@media screen and (min-width:415px) {
   body {
-    font-size: 90%;
+    font-size: 25px;
   }
 }
 @media screen and (max-width:414px) {
-  header .br {
-    display: none;
+  body {
+    font-size: 16px;
   }
-  .copyright .br {
+}
+@media screen and (min-width:414px) {
+  .br {
     display: none;
   }
 }
