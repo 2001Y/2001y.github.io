@@ -50,9 +50,6 @@ body {
   width: 100vw;
   background-color: #f8f8f8;
 }
-@media screen and (min-width:414px) {
-  font-size: 90%;
-}
 .contents {
   font-family: 'Playfair Display','Noto Sans Japanese';
 }
@@ -370,13 +367,22 @@ header .myicon {
   opacity: .8;
 }
 
-@media screen and (min-width:912px) {
+/* Responsive */
+@media (min-width:414px) {
+  body {
+    font-size: 90%;
+  }
+  .copyright .br {
+    display: none;
+  }
+}
+@media (min-width:912px) {
   .br {
     display: none;
   }
 }
-@media screen and (min-width:414px) {
-  .copyright .br {
+@media (-moz-touch-enabled),(min-width:414px) {
+  .mysns span {
     display: none;
   }
 }
