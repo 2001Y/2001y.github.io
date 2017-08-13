@@ -368,12 +368,12 @@ header .myicon {
 }
 
 /* Responsive */
-@media screen and (max-width:414px) {
+@media screen and (min-width:414px) {
   body {
     font-size: 90%;
   }
 }
-@media screen and (min-width:414px) {
+@media screen and (max-width:414px) {
   header .br {
     display: none;
   }
