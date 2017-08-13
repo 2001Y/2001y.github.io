@@ -50,6 +50,7 @@ body {
   background-color: #f8f8f8;
   -webkit-animation: fadein 2s ease 0s 1 normal;
           animation: fadein 2s ease 0s 1 normal;
+  scroll-behavior: smooth;
 }
 @-webkit-keyframes fadein {
     0% {
