@@ -381,7 +381,7 @@ header .myicon {
     display: none;
   }
 }
-@media (-moz-touch-enabled),screen and (max-width:414px) {
+@media screen and (-moz-touch-enabled),screen and (max-width:414px) {
   .mysns span {
     display: none;
   }
