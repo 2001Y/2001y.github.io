@@ -48,10 +48,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   width: 100vw;
   background-color: #f8f8f8;
-  -webkit-transition: 2s;
-  -o-transition: 2s;
-  transition: 2s;
-  opacity: 1
+  -webkit-transition: 2s ease-in;
+  -o-transition: 2s ease-in;
+  transition: 2s ease-in;
+  opacity: 1;
 }
 #loading {
   display: none;
