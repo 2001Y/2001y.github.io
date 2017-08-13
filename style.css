@@ -368,12 +368,12 @@ header .myicon {
 }
 
 /* Responsive */
-@media screen and (min-width:414px) {
+@media (min-width:414px) {
   body {
     font-size: 90%;
   }
 }
-@media screen and (max-width:414px) {
+@media (max-width:414px) {
   header .br {
     display: none;
   }
@@ -381,7 +381,7 @@ header .myicon {
     display: none;
   }
 }
-@media screen and (-moz-touch-enabled),screen and (max-width:414px) {
+@media (-moz-touch-enabled),(max-width:414px) {
   .mysns span {
     display: none;
   }
