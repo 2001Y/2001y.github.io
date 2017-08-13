@@ -372,12 +372,12 @@ header .myicon {
   body {
     font-size: 90%;
   }
-  .copyright .br {
+}
+@media screen and (min-width:414px) {
+  header .br {
     display: none;
   }
-}
-@media screen and (min-width:912px) {
-  header .br {
+  .copyright .br {
     display: none;
   }
 }
