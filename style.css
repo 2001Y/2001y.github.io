@@ -16,7 +16,7 @@
 
 /* === html5doctor.com Reset Stylesheet v1.6.1 Last Updated: 2010-09-17 Author: Richard Clark - //richclarkdesign.com Twitter: @rich_clark === */
 
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, #footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -24,7 +24,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
   font-size: 100%;
   vertical-align: baseline;
 }
-article, aside, #footer, header, menu, nav, section {
+article, aside, footer, header, menu, nav, section {
   display: block;
 }
 input, button, textarea, select {
@@ -158,7 +158,7 @@ header, [id^='page'] {
   margin-bottom: 60vh;
 }
 footer {
-  height: 140vh;
+  height: 160vh;
 }
 [id^='page']:nth-child(odd) .contents,[id^='page']:nth-child(odd) .contents a {
   color: #f8f8f8;
@@ -320,7 +320,6 @@ header .myicon {
   list-style-type: none;
 }
 #footer {
-  height: 100vh;
   color: #f8f8f8;
   background: url(footer.jpg) no-repeat left/cover;
   z-index: 6;
