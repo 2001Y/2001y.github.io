@@ -333,7 +333,7 @@ header .myicon {
   background: url(footer.jpg) no-repeat left/cover;
   -webkit-animation: 2s fadein;
           animation: 2s fadein; 2s ease 0s 1 normal;
-  z-index: 6;
+  z-index: 8;
 }
 #footer .myicon {
   width: 77px;
