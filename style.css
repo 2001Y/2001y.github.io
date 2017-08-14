@@ -65,8 +65,8 @@ body {
   width: 100vw;
   background-color: #f8f8f8;
   overflow-y: scroll;
-  -webkit-animation: fadein 2s ease 0s 1 normal;
-          animation: fadein 2s ease 0s 1 normal;
+  -webkit-animation: fadein 2s;
+          animation: fadein 2s;
   scroll-behavior: smooth;
 }
 @-webkit-keyframes fadein {
@@ -173,45 +173,45 @@ footer {
   background: #462e22;
 }
 #page1 {
-  background:-webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.3))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABhJREFUCB1jYMAG/v//7wPCIDkmbApQxAAZ7QaVaX9fAwAAAABJRU5ErkJggg==) repeat, url(page1.jpg) no-repeat center/cover;
-  background:-webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABhJREFUCB1jYMAG/v//7wPCIDkmbApQxAAZ7QaVaX9fAwAAAABJRU5ErkJggg==) repeat, url(page1.jpg) no-repeat center/cover;
-  background:-o-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABhJREFUCB1jYMAG/v//7wPCIDkmbApQxAAZ7QaVaX9fAwAAAABJRU5ErkJggg==) repeat, url(page1.jpg) no-repeat center/cover;
-  background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABhJREFUCB1jYMAG/v//7wPCIDkmbApQxAAZ7QaVaX9fAwAAAABJRU5ErkJggg==) repeat, url(page1.jpg) no-repeat center/cover;
+  background:-webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, .3)), to(rgba(255, 255, 255, .3))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page1.jpg) no-repeat center/cover;
+  background:-webkit-linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page1.jpg) no-repeat center/cover;
+  background:-o-linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page1.jpg) no-repeat center/cover;
+  background:linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page1.jpg) no-repeat center/cover;
   z-index: 2;
 }
 #page2 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page2.jpg) no-repeat center/cover;
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page2.jpg) no-repeat center/cover;
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page2.jpg) no-repeat center/cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page2.jpg) no-repeat center/cover;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .3)), to(rgba(0, 0, 0, .3))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page2.jpg) no-repeat center/cover;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page2.jpg) no-repeat center/cover;
+  background: -o-linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page2.jpg) no-repeat center/cover;
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page2.jpg) no-repeat center/cover;
   z-index: 3;
 }
 #page3 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.3))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABhJREFUCB1jYMAG/v//7wPCIDkmbApQxAAZ7QaVaX9fAwAAAABJRU5ErkJggg==) repeat, url(page3.jpg) no-repeat center/cover;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABhJREFUCB1jYMAG/v//7wPCIDkmbApQxAAZ7QaVaX9fAwAAAABJRU5ErkJggg==) repeat, url(page3.jpg) no-repeat center/cover;
-  background: -o-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABhJREFUCB1jYMAG/v//7wPCIDkmbApQxAAZ7QaVaX9fAwAAAABJRU5ErkJggg==) repeat, url(page3.jpg) no-repeat center/cover;
-  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABhJREFUCB1jYMAG/v//7wPCIDkmbApQxAAZ7QaVaX9fAwAAAABJRU5ErkJggg==) repeat, url(page3.jpg) no-repeat center/cover;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, .3)), to(rgba(255, 255, 255, .3))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page3.jpg) no-repeat center/cover;
+  background: -webkit-linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page3.jpg) no-repeat center/cover;
+  background: -o-linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page3.jpg) no-repeat center/cover;
+  background: linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page3.jpg) no-repeat center/cover;
   z-index: 4;
 }
 #page4 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page4.jpg) no-repeat center/cover;
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page4.jpg) no-repeat center/cover;
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page4.jpg) no-repeat center/cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page4.jpg) no-repeat center/cover;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .3)), to(rgba(0, 0, 0, .3))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page4.jpg) no-repeat center/cover;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page4.jpg) no-repeat center/cover;
+  background: -o-linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page4.jpg) no-repeat center/cover;
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page4.jpg) no-repeat center/cover;
   z-index: 5;
 }
 #page5 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0.3))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page5.jpg) no-repeat center/cover;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page5.jpg) no-repeat center/cover;
-  background: -o-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page5.jpg) no-repeat center/cover;
-  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page5.jpg) no-repeat center/cover;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, .3)), to(rgba(255, 255, 255, .3))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page5.jpg) no-repeat center/cover;
+  background: -webkit-linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page5.jpg) no-repeat center/cover;
+  background: -o-linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page5.jpg) no-repeat center/cover;
+  background: linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page5.jpg) no-repeat center/cover;
   z-index: 6;
 }
 #page6 {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page6.jpg) no-repeat center/cover;
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page6.jpg) no-repeat center/cover;
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page6.jpg) no-repeat center/cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page6.jpg) no-repeat center/cover;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .3)), to(rgba(0, 0, 0, .3))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page6.jpg) no-repeat center/cover;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page6.jpg) no-repeat center/cover;
+  background: -o-linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page6.jpg) no-repeat center/cover;
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABdJREFUCB1jYEADjFC+D0ycCcaA0RgCAA2hAFKbHc0tAAAAAElFTkSuQmCC) repeat, url(page6.jpg) no-repeat center/cover;
   z-index: 7;
 }
 .scroll-dot {
@@ -273,6 +273,8 @@ header {
   color: #f8f8f8;
   font-size: 2.5em;
   background: url(header.jpg) no-repeat center/cover;
+  -webkit-animation: 2s fadein;
+          animation: 2s fadein; 2s ease 0s 1 normal;
   z-index: 1;
 }
 header .myicon {
@@ -329,6 +331,8 @@ header .myicon {
 #footer {
   color: #f8f8f8;
   background: url(footer.jpg) no-repeat left/cover;
+  -webkit-animation: 2s fadein;
+          animation: 2s fadein; 2s ease 0s 1 normal;
   z-index: 6;
 }
 #footer .myicon {
