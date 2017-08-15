@@ -394,13 +394,13 @@ header .myicon {
           transform: translateX(0);
   opacity: 1;
 }
-.mysns div:hover img {
+.mysns div:hover .icon {
   -webkit-transform: rotate(360deg);
       -ms-transform: rotate(360deg);
           transform: rotate(360deg);
   opacity: 1;
 }
-.mysns img {
+.icon {
   height: 40px;
   width: 40px;
   margin: 5px 0;
@@ -408,6 +408,7 @@ header .myicon {
   -webkit-transition: .3s ease-out;
   -o-transition: .3s ease-out;
   transition: .3s ease-out;
+  fill: #f8f8f8;
 }
 .copyright {
   font-family: 'Noto Sans Japanese';
