@@ -1,4 +1,3 @@
 timezone: Asia/Tokyo
 gems: - jekyll-sitemap
-assets:
-  cache: false
+cache:  true
