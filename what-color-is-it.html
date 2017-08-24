@@ -1,0 +1,57 @@
+<style>
+	body {
+		font-family: 'Rounded Mplus 1c', monospace;
+		color: white;
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: .6s;
+	}
+	div {
+		width: 100vw;
+		text-align: center;
+	}
+	#clock {
+		font-size: 90px;
+	}
+	#color {
+		font-size: 30px;
+	}
+	@font-face {
+		font-family: 'Rounded Mplus 1c';
+		font-style: normal;
+		font-weight: 100;
+		src: url(//fonts.gstatic.com/ea/roundedmplus1c/v1/RoundedMplus1c-Thin.eot);
+		src: url(//fonts.gstatic.com/ea/roundedmplus1c/v1/RoundedMplus1c-Thin.eot?#iefix) format('embedded-opentype'), url(//fonts.gstatic.com/ea/roundedmplus1c/v1/RoundedMplus1c-Thin.woff2) format('woff2'), url(//fonts.gstatic.com/ea/roundedmplus1c/v1/RoundedMplus1c-Thin.woff) format('woff'), url(//fonts.gstatic.com/ea/roundedmplus1c/v1/RoundedMplus1c-Thin.ttf) format('truetype');
+	}
+</style>
+<body>
+	<section>
+		<div id='clock'>JavaScriptが無効</div>
+		<div id='color'>JavaScriptを有効にしてください。</div>
+	</section>
+</body>
+<script>
+	function regulate(num) {
+		let ret;
+		if (num < 10) {
+			ret = '0' + num;
+		} else {
+			ret = num;
+		}
+		return ret;
+	}
+	function clock() {
+		let time = new Date();
+		let hour = regulate(time.getHours());
+		let min = regulate(time.getMinutes());
+		let sec = regulate(time.getSeconds());
+		let color = '#' + hour + min + sec;
+		document.getElementById('clock').innerHTML = hour + ':' + min + ':' + sec;
+		document.getElementById('color').innerHTML = color;
+		document.body.style.backgroundColor = color;
+	}
+	setInterval('clock()', 1000);
+</script>
