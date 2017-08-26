@@ -1,37 +1,14 @@
 <style>
-	/* === html5doctor.com Reset Stylesheet v1.6.1 Last Updated: 2010-09-17 Author: Richard Clark - http://richclarkdesign.com Twitter: @rich_clark === */html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	html, body, div, section {
 		margin: 0;
 		padding: 0;
 		border: 0;
 		outline: 0;
 		font-size: 100%;
 		vertical-align: baseline;
-	}article, aside, footer, header, menu, nav, section {
+	}
+	section {
 		display: block;
-	}
-	input, button, textarea, select {
-		-webkit-appearance: none;
-		-moz-appearance: none;
-		appearance: none;
-	}
-	blockquote, q {
-		quotes: none;
-	}
-	blockquote:before, blockquote:after, q:before, q:after {
-		content: '';
-	}
-	a {
-		margin: 0;
-		padding: 0;
-		font-size: 100%;
-		vertical-align: baseline;
-	}
-	table {
-		border-collapse: collapse;
-		border-spacing: 0;
-	}
-	input, select {
-		vertical-align: middle;
 	}
 
 	body {
@@ -54,11 +31,6 @@
 	}
 	#color {
 		font-size: 30px;
-	}
-	@media screen and (max-width: 479px) and (orientation: portrait) {
-		body {
-			transform:rotate(-90deg);
-		}
 	}
 	@media screen and (max-width: 479px) and (orientation: portrait) {
 		body {
@@ -145,12 +117,4 @@
 	window.addEventListener('touchmove', function(event) {
     event.preventDefault();
 	});
-	if( window.navigator.standalone ) {
-		var tag = document.createElement( 'style' );
-		document.getElementsByTagName( 'head' ).item( 0 ).appendChild( tag );
-		stylesheet = document.styleSheets.item( 0 );
-		stylesheet.insertRule( '.class{ width: 100px; }' , stylesheet.cssRules.length );
-	} else {
-		// ブラウザからアクセスしました
-	}
 </script>
