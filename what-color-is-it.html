@@ -60,6 +60,11 @@
 			transform:rotate(-90deg);
 		}
 	}
+	@media screen and (max-width: 479px) and (orientation: portrait) {
+		body {
+			transform:rotate(-90deg);
+		}
+	}
 	@font-face {
 		font-family: 'Rounded Mplus 1c';
 		font-style: normal;
@@ -76,6 +81,7 @@
 	<meta content='Copyright © 2017 2001Y All Rights Reserved.' name='copyright'/>
 	<meta content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0' name='viewport'/>
 	<meta content='yes' name='apple-mobile-web-app-capable'>
+	<meta content='yes' name='mobile-web-app-capable'>
 	<meta content='black-translucent' name='apple-mobile-web-app-status-bar-style'>
 	<meta content='What color is it ?' name='apple-mobile-web-app-title'>
 	<meta content='604800' http-equiv='expires'/>
@@ -104,6 +110,7 @@
 	<meta content='on' http-equiv='cleartype'>
 	<meta content='#010920' name='theme-color'>
 	<link href='wcii/apple-touch-icon.png' rel='apple-touch-icon' sizes='180x180'>
+	<link href='wcii/apple-touch-icon.png' rel='shortcut icon' sizes='180x180'>
 	<meta content='notranslate' name='google'/>
 	<title>What color is it ? by2001Y</title>
 </head>
@@ -138,4 +145,12 @@
 	window.addEventListener('touchmove', function(event) {
     event.preventDefault();
 	});
+	if( window.navigator.standalone ) {
+		var tag = document.createElement( 'style' );
+		document.getElementsByTagName( 'head' ).item( 0 ).appendChild( tag );
+		stylesheet = document.styleSheets.item( 0 );
+		stylesheet.insertRule( '.class{ width: 100px; }' , stylesheet.cssRules.length );
+	} else {
+		// ブラウザからアクセスしました
+	}
 </script>
