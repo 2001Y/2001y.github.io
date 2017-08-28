@@ -476,3 +476,14 @@ header .myicon {
   font-weight: 400;
   src: local('Quicksand Regular'), local('Quicksand-Regular'), url(//fonts.gstatic.com/s/quicksand/v6/NUrn2XQrRfyGZp5MknntaYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
 }
+
+/* sticky for IE */
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.sticky:before,.sticky:after {
+    content: '';
+    display: table;
+}

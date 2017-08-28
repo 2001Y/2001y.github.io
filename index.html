@@ -20,6 +20,10 @@
 	<title>2001Y Portfolio</title>
 	<!--[if IE]>
 	  <script src='//cdn.jsdelivr.net/g/jquery@3.2.1,stickyfill@1.1.4'></script>
+		<script>
+	  	var stickyElements = document.getElementsByClassName('sticky');
+			for (var i = stickyElements.length - 1; i >= 0; i--) {Stickyfill.add(stickyElements[i]);}
+		</script>
 	<![endif]-->
 	<!--[if IE 10]>
 	  <script src='//cdn.jsdelivr.net/g/ie10-viewport@1.0.0'></script>
