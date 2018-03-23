@@ -3,7 +3,7 @@
 <div id="fileBox">
   Drag & Drop
   <input type="file" id="fileInput"/>
-  <input type="text" id="filePath" disabled/>
+  <input type="text" id="filePath"/>
 </div>
 <div id="exif"></div>
 <style>
@@ -44,6 +44,7 @@ h1 span {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 2;
 }
 #filePath {
   font-size: 1em;
